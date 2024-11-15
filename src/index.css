@@ -1,11 +1,17 @@
+.container{
+  width:100%;
+  display: flex;
+}
+
+
+
 .hide{
 
   display: none;
 
 }
 .accordion{
-  display:flex;
-  flex-direction: column;
+  
 
   padding:1rem;
   margin-bottom: 1rem;
@@ -13,7 +19,7 @@
 
 }
 .lang_btn{
-  width: 15%;
+ 
   border-radius: 5px;
   padding: 0.5rem;
   background-color: blue;
